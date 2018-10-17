@@ -13,7 +13,7 @@ Licensed under GPL 2 or better.
 
 ## Install:
 
- * Copy the source into the PKP product's plugins/generic folder.
+ * Copy the source into the PKP product's `plugins/generic` folder.
  * Run `tools/upgrade.php upgrade` to allow the system to recognize the new plugin.
  * Enable this plugin within the administration interface.
  * Consider the settings within the administation interface.
