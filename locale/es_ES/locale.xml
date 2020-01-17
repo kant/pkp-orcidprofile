@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2015 University of Pittsburgh
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+ 
+<locale name="es_ES" full_name="Español (España)">
+
+	<message key="plugins.generic.orcidProfile.displayName">Módulo de perfil ORCID</message>
+	<message key="plugins.generic.orcidProfile.description"><![CDATA[Permite la importación de la información del perfil de usuario de ORCID.]]></message>
+	<message key="plugins.generic.orcidProfile.instructions"><![CDATA[Puede rellenar previamente este formulario con información de un perfil ORCID. Ingrese la dirección de correo electrónico o identificador ORCID asociado a un perfil ORCID, luego haga clic en "Enviar".]]></message>
+	<message key="plugins.generic.orcidProfile.noData">No se pudo encontrar ningún dato desde ORCID.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">Dirección de correo electrónico o identificador ORCID:</message>
+	<message key="plugins.generic.orcidProfile.submitAction">Enviar</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Configuración del perfil ORCID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Configure la API de ORCID para usarla en la extracción de la información del perfil ORCID en el perfil del usuario.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">Dirección URL de la API de ORCID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPathInstructions">Incluye una dirección URL, versión, y barra diagonal, p. ej.: http://pub.orcid.org/v1.2/</message>
+
+</locale>
